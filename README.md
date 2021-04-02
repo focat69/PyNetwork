@@ -23,17 +23,17 @@ To get a server up and running, it only takes 5 lines! I know, right?
 2: You can the start it! `server.start()`.
 
 ### Connecting to a server
-1: After the import, add: `client = pynetwork.ClientConnection("host", "port")`
+1: After the import, add: `client = pynetwork.ClientConnection("host", "port")`.
 2: Connect to the server. `client.connect()`.
 
 
 # FEATURES
-- Server
+### Server
 1: `send_to_client(str, data="ascii")`
 2: `recieve_from_client(bytes)`
 3: `close_client_connection`
 
-- Client
+### Client
 1: `send_to_server(str, data="ascii")`
 2: `recieve_from_server(bytes)`
 
