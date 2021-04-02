@@ -18,11 +18,11 @@ To get a server up and running, it only takes 5 lines! I know, right?
 3: Import PyNetwork
 
 ***( REPLACE HOST WITH THE SERVER HOST )***
-- Making a server
+### Making a server
 1: After the import, add: `server = pynetwork.Server("yourhost", "port")`.
 2: You can the start it! `server.start()`.
 
-- Connecting to a server
+### Connecting to a server
 1: After the import, add: `client = pynetwork.ClientConnection("host", "port")`
 2: Connect to the server. `client.connect()`.
 
