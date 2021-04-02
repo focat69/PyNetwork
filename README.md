@@ -31,7 +31,7 @@ To get a server up and running, it only takes 5 lines! I know, right?
 ### Server
 1: `send_to_client(str, data="ascii")`
 2: `recieve_from_client(bytes)`
-3: `close_client_connection`
+3: `close_client_connection()`
 
 ### Client
 1: `send_to_server(str, data="ascii")`
