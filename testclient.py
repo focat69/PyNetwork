@@ -1,6 +1,6 @@
 import pynetwork as pn
 
-host = "192.168.1.76" # Test server
+host = "127.0.0.1"
 port = 9090
 
 # Create a "client" object
